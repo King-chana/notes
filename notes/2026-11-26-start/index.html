@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>开始用这个站 · 娜娜的笔记</title><meta name="description" content="这个站怎么用，以及一条内容放在哪。"><link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>"><link rel="stylesheet" href="/notes/_astro/_category_.BlzM2Nhw.css"></head> <body> <header class="site-header"> <div class="wrap"> <a class="brand" href="/notes/"> 娜娜的笔记 <small>NOTES &amp; ARCHIVE</small> </a> <nav class="site-nav"> <a href="/notes/">首页</a> <a href="/notes/portfolio/">作品集</a> <a href="/notes/plan/">日常</a> <a href="/notes/c/paper/"> 论文进度 </a><a href="/notes/c/case/"> 判例 </a><a href="/notes/c/ledger/"> 二课台账 </a><a href="/notes/c/reading/"> 读书 </a><a href="/notes/c/misc/"> 其他 </a> </nav> </div> </header> <main> <div class="wrap">  <article> <header class="article-head"> <h1>开始用这个站</h1> <div class="meta"> <span>2026-11-26</span> <span>其他</span> <span class="tag">说明</span> </div> </header> <div class="prose"> <p>这个站只有一件事：<strong>把学过的东西留下来</strong>。</p>
+<h2 id="怎么写一篇">怎么写一篇</h2>
+<p>在 <code>src/content/notes/</code> 里新建一个 <code>.md</code> 文件，开头写这几行：</p>
+<pre class="astro-code github-light" style="background-color:#fff;color:#24292e; overflow-x: auto;" tabindex="0" data-language="markdown"><code><span class="line"><span style="color:#005CC5;font-weight:bold">---</span></span>
+<span class="line"><span style="color:#24292E">title: 标题</span></span>
+<span class="line"><span style="color:#24292E">date: 2026-11-26</span></span>
+<span class="line"><span style="color:#24292E">category: paper</span></span>
+<span class="line"><span style="color:#24292E">tags: [信赖利益, 征收]</span></span>
+<span class="line"><span style="color:#24292E">summary: 一句话摘要，会显示在列表里。</span></span>
+<span class="line"><span style="color:#005CC5;font-weight:bold">---</span></span></code></pre>
+<p><code>category</code> 只能填这五个之一：<code>paper</code>（论文进度）、<code>case</code>（判例）、<code>ledger</code>（二课台账）、<code>reading</code>（读书）、<code>misc</code>（其他）。</p>
+<p>正文就是普通 Markdown。表格、代码块、引用都支持。</p>
+<h2 id="三条纪律">三条纪律</h2>
+<ol>
+<li><strong>写得糙没关系，别不写。</strong> 这个站的价值在「有」，不在「完美」。</li>
+<li><strong>一篇只讲一件事。</strong> 判例就写判例，台账就写台账，别混。</li>
+<li><strong>每篇结尾写一句「下一步」。</strong> 三个月后回头看的你会感谢现在的你。</li>
+</ol>
+<blockquote>
+<p>这个文件是示例，可以直接改成你自己的第一篇文章。</p>
+</blockquote> </div> <a class="back" href="/notes/">← 回到首页</a> </article>  </div> </main> <footer class="site-footer"> <div class="wrap"> <span>© 2026 娜娜的笔记</span> <span> · 用 Markdown 写，用 Astro 生成</span> </div> </footer> </body></html>
